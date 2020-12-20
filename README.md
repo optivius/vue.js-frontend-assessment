@@ -1,6 +1,7 @@
 # Challenge Idea
 We have an api that has random questions with multiple answers that need to fetch these questions to the client and ask him to answer these questions as showing each question as a single page `using vuejs route` 
 > ex question 1: http://localhost/question/1
+
 > ex question 2:http://localhost/question/2 ...etc 
 
 After he answers all questions he can click the results button to view his points for each question `1 Point for each correct answer` and the total points
@@ -9,7 +10,13 @@ After he answers all questions he can click the results button to view his point
 He can start over again with other questions.
 
 Fllow this design by bootstrap:
+
+Page 1:
+
 [![1](https://optivius.com/s3/1.png)](https://optivius.com/s3/1.png)
+
+Page 2:
+
 [![1](https://optivius.com/s3/2.png)](https://optivius.com/s3/2.png)
 
 ##### Api schema is: 
@@ -33,7 +40,7 @@ Fllow this design by bootstrap:
     ]
 }
 ```
->> `Important:` You must view the correct answer with the incorrect answers in random position.
+> `Important:` You must view the correct answer with the incorrect answers in random position.
 
 #### Api
 ``` code
